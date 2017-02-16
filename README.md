@@ -6,7 +6,6 @@ Today we introduced Joins and Relations, which we'll be implementing using SQL.
 
 Your lab TODOs today will require you to write SQL queries and add associated data to those queries in the `server.js` file, though you need to have an understanding at this point as to how everything is working together to accomplish our full functionality.
 
-
 ## Getting started (DO THIS AFTER CLONING YOUR FORK)
 1. `cd starter-code` to change dirs to the starter code directory
 2. Ensure that you have your postgres server running, using the alias that we set up in lecture: `pgstart`
@@ -33,6 +32,4 @@ This means you'll want to be able to do full CRUD on articles in the database. Y
 
 Crucially, you'll need to trace through the app logic, and all those callback functions to determine WHEN is the right time to load data, or convert JSON.
 
-Look through the TODOs, which signify areas of the code with varying levels of completeness, and focus initially on writing correct SQL. Practice in the web inspector.
-
-<!-- There is no portfolio assignment. -->
+Look through the TODOs, which signify areas of the code with varying levels of completeness, and focus initially on writing correct SQL.
