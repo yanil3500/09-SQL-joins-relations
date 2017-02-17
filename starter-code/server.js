@@ -9,7 +9,7 @@ const app = express();
 // DONE: Don't forget to set your own conString if required by your system
 const conString = 'postgres://localhost:5432';
 // DONE: Using a sentence or two, describe what is happening in Line 12.
-// The client const contains the route that is going to be used to connect to the DB. When the .connect() is invoked, the connection is established between our view and model, with our controller serving as the intermidiary.
+// The client const contains the route (port) that is going to be used to communicate our DB. When the .connect() is invoked, the connection is established between our view and model, with our controller serving as the intermidiary.
 const client = new pg.Client(conString);
 client.connect();
 
